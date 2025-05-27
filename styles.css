@@ -1,0 +1,47 @@
+body{
+            background: rgb(255, 255, 255);
+            color:rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            margin:0;
+            padding:0;
+            list-style-type:none;
+        }
+        li{
+            display: inline-block;
+            margin: 0 20px 0 0;
+        }
+        .recipe {
+            background: white;
+            color: black;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+        }
+         figure {
+
+            width: 75%;
+            margin:auto;
+            display :inline-block;
+            flex-direction: row;
+            list-style-type: none;
+        }
+        .recipe figure img {
+            width:100%;
+        }
+        div2 {
+            display:  inline-block;
+            width: 19%;
+            height:50px;
+            background:red;
+            margin: auto;
+        }
+        figcaption
+        {
+            width:80%;
+            word-wrap: break-word;
+        }
