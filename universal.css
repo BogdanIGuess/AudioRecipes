@@ -1,15 +1,37 @@
         nav
                 {
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: larger;
             font-weight: bolder;
-        }
-        nav >div{
-            width :10px;
         }
         header {
             background: rgb(255, 102, 31);
             color: gray;
             margin:0;
             padding: 10px 5px;
+        }
+        a:link {
+  color: rgb(1, 206, 1);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a {
+    color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .utility2 a
+{
+    color: rgb(0, 196, 0);
+}
+ .utility a{
+    color:red;
+ }
+         h1 {
+            text-align: center;
+            color:rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: italic;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
         }

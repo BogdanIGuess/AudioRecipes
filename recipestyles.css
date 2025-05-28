@@ -15,7 +15,6 @@ body{
             display: inline-block;
             margin: 0 20px 0 0;
             flex-direction: row;
-            font-family: 'Courier New', Courier, monospace;
         }
         header {
             background: rgb(255, 102, 31);
@@ -28,6 +27,7 @@ body{
             color: rgb(0, 0, 0);
             padding: 20px;
             display:-ms-flexbox;
+            font-family: 'Courier New', Courier, monospace;
         }
         div {
             display:inline-block;
@@ -36,10 +36,17 @@ body{
         }
         div2 {
             display:  inline-block;
+            width: 19%;
+            height:50px;
+            background:red;
             margin: auto;
         }
         h1 {
             text-align: center;
+            color:rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: italic;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
         section1 {
             display: inline-block;
@@ -57,17 +64,21 @@ body{
             margin: 0;
             padding: 0;
             text-align: left;
+            display:flex;
+            flex-direction: column;
+        }
+        ol >li{
+            flex-direction: column;
         }
         .ingredients
         {
-            width:20%;
+            width:25%;
             word-wrap: break-word;
             padding:0;
-            margin:5%;
+            margin:0;
             font-size: 70%;
             font-family:Georgia, 'Times New Roman', Times, serif;
-                        word-spacing:0cqb;
-
+            word-spacing:0cqb;
         }
         .steps
         {
@@ -79,13 +90,14 @@ body{
                         word-spacing:-0.5cqb;
 
         }
-        br{
-            display: block;
-            margin-bottom: 10px;
-            font-size: 2px;
-            line-height: 10px;
-        }
         .utility{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            line-height: 2;
+            font-weight: bolder;
+        }
+            .utility2{
             display: flex;
             flex-direction: column;
             text-align: center;
